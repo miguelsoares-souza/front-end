@@ -3,20 +3,37 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 0;
-  background: #fafafb;
-  color: #222;
+  padding: 10px;
+  background-color: #fefefe;
+  color: #050505;
 }
-
+.titulo{
+    background: #263a57;
+    color: #d9d9da;
+    padding: 5px;
+}
+a{
+    color: darkgoldenrod;
+}
+#dec{
+    text-decoration: line-through;
+}
+#cidade{
+    font-weight: bold;
+}
+#cur{
+    font-style: italic;
+}
 .topo{
   text-align: center;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #e7e8ed;
   color: #fff;
 }
 
 .nome{
   margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.8rem;
 }
 
@@ -67,7 +84,7 @@ ul{
 
 footer{
   margin-top: 20px;
-  background-color: #f6f8fb;
+  background-color: #263a57;
   color: #fff;
   text-align: center;
   padding: 10px;
